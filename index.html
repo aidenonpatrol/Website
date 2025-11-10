@@ -34,7 +34,13 @@
 
     header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:28px}
     .brand{display:flex;gap:14px;align-items:center}
-    .badge{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#0a7cff);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px;box-shadow:0 6px 18px rgba(11,99,255,0.15)}
+    .badge-img{
+      width:56px;
+      height:56px;
+      border-radius:10px;
+      object-fit:cover;
+      box-shadow:0 6px 18px rgba(11,99,255,0.15);
+    }
     .title h1{font-size:20px;margin:0}
     .title p{margin:0;color:var(--muted);font-size:13px}
 
@@ -74,7 +80,7 @@
   <div class="wrap">
     <header>
       <div class="brand">
-        <div class="badge">A</div>
+        <img src="bg.png" alt="Aiden On Patrol Logo" class="badge-img">
         <div class="title">
           <h1>Aiden On Patrol</h1>
           <p>ERLC Mod Patrols — moderation highlights & tutorials</p>
@@ -118,7 +124,6 @@
                 <time>Nov 9, 2025</time>
                 <h3>Patrol series format</h3>
               </article>
-
             </div>
           </div>
         </section>
@@ -129,12 +134,9 @@
               <h3 style="margin:0">Videos</h3>
               <span class="muted">No videos yet</span>
             </div>
-
             <div class="videos" style="margin-top:12px"></div>
-
           </div>
         </section>
-
       </main>
 
       <aside>
