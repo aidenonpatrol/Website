@@ -11,7 +11,6 @@
       --card:#0f1720;
       --muted:#9aa7b6;
       --accent:#0b63ff;
-      --glass: rgba(255,255,255,0.03);
       --radius:16px;
       --maxw:980px;
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
@@ -62,7 +61,6 @@
     .news-item h3{margin:6px 0 0 0;font-size:16px}
 
     .videos{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:12px}
-    iframe{border:none;border-radius:10px;width:100%;aspect-ratio:16/9}
 
     .links{display:flex;flex-direction:column;gap:8px}
     .link{display:flex;align-items:center;gap:10px;padding:10px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));text-decoration:none;color:inherit}
@@ -99,7 +97,6 @@
           <div class="right">
             <div style="text-align:right">
               <div style="font-weight:700;font-size:18px">Coming Soon</div>
-              <div class="muted">First patrol video will be uploaded to the YouTube channel</div>
             </div>
           </div>
         </section>
@@ -115,13 +112,11 @@
               <article class="news-item">
                 <time>Nov 9, 2025</time>
                 <h3>Channel launch — coming soon</h3>
-                <p class="muted" style="margin-top:8px">Preparing the first mod patrol episode. Subscribe to Aiden On Patrol on YouTube to be notified when it drops.</p>
               </article>
 
               <article class="news-item">
                 <time>Nov 9, 2025</time>
                 <h3>Patrol series format</h3>
-                <p class="muted" style="margin-top:8px">Episodes will include full patrols, highlights, and short tutorials for new moderators.</p>
               </article>
 
             </div>
@@ -135,12 +130,7 @@
               <span class="muted">No videos yet</span>
             </div>
 
-            <div class="videos" style="margin-top:12px">
-              <div class="video-card" style="padding:18px;border-radius:12px;background:rgba(255,255,255,0.02);text-align:center">
-                <div style="font-weight:700">No patrols yet</div>
-                <small class="muted">Your first mod patrol will appear here once uploaded.</small>
-              </div>
-            </div>
+            <div class="videos" style="margin-top:12px"></div>
 
           </div>
         </section>
@@ -160,23 +150,11 @@
             </a>
           </div>
         </div>
-
-        <div style="height:18px"></div>
-
-        <div class="card">
-          <h4 style="margin:0 0 8px 0">Quick tips</h4>
-          <ul class="muted" style="padding-left:18px;margin:0">
-            <li>Keep episode titles clear (e.g. "EP1 — Night Patrol: River City").</li>
-            <li>Use timestamps in video descriptions for highlights.</li>
-            <li>Add tags: ERLC, Roblox, moderation, mod patrol.</li>
-          </ul>
-        </div>
       </aside>
     </div>
 
     <footer>
-      <div class="muted">Built for Aiden On Patrol • Ready for GitHub Pages</div>
-      <div class="muted" style="margin-top:6px">To publish: create a repo named <code>your-username.github.io</code>, upload this file as <code>index.html</code>, then visit your GitHub Pages URL.</div>
+      <div class="muted">© Aiden On Patrol</div>
     </footer>
   </div>
 </body>
